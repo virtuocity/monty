@@ -7,7 +7,7 @@
  * @line_no: line number;
  * Return: no return
  */
-void _nob(stack_t **head, unsigned int line_no)
+void _nop(stack_t **head, unsigned int line_no)
 {
 	(void)head;
 	(void)line_no;

@@ -87,8 +87,8 @@ stack_t *add_dnodeint_end(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
 
 /* opcode_instructuions*/
-void _push(stack_t **stack, unsigned int line_number);
-void _pall(stack_t **stack, unsigned int line_number);
+void _push(stack_t **stack, unsigned int line_no);
+void _pall(stack_t **stack, unsigned int line_no);
 void _pint(stack_t **doubly, unsigned int line_no);
 
 #endif /* MONTY_H */

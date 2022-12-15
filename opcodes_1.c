@@ -10,9 +10,6 @@
 void _pint(stack_t **doubly, unsigned int line_no)
 {
 	(void)line_no;
-	stack_t *p;
-
-	p = *doubly;
 
 	if (*doubly == NULL)
 	{
@@ -21,5 +18,5 @@ void _pint(stack_t **doubly, unsigned int line_no)
 		free_globv();
 		exit(EXIT_FAILURE);
 	}
-	printf("%d\n", p->n);
+	printf("%d\n", (*doubly)->n);
 }

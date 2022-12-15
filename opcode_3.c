@@ -13,7 +13,7 @@ void _swap(stack_t **head, unsigned int line_no)
 	int m = 0;
 	stack_t *p = NULL;
 
-	p = *doubly;
+	p = *head;
 	while (p)
 	{
 		p = p->next;
@@ -25,7 +25,7 @@ void _swap(stack_t **head, unsigned int line_no)
 		free_globv();
 		exit(EXIT_FAILURE);
 	}
-	P = *head;
+	p = *head;
 	*head = (*head)->next;
 	p->next = (*head)->next;
 	p->prev = *head;

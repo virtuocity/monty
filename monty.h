@@ -87,12 +87,14 @@ stack_t *add_dnodeint_end(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
 
 /* opcode_instructuions*/
-void _push(stack_t **stack, unsigned int line_no);
-void _pall(stack_t **stack, unsigned int line_no);
-void _pint(stack_t **doubly, unsigned int line_no);
-void _pop(stack_t **doubly, unsigned int line_no);
+void _push(stack_t **head, unsigned int line_no);
+void _pall(stack_t **head, unsigned int line_no);
+void _pint(stack_t **head, unsigned int line_no);
+void _pop(stack_t **head, unsigned int line_no);
 void _swap(stack_t **head, unsigned int line_no);
 void _add(stack_t **head, unsigned int line_no);
 void _nop(stack_t **head, unsigned int line_no);
+void _sub(stack_t **head, unsigned int line_no);
+void _div(stack_t **head, unsigned int line_no);
 
 #endif /* MONTY_H */

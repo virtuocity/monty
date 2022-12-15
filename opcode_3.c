@@ -2,8 +2,7 @@
 
 /**
  * _swap - swaps the top two elements of the stack
- *
- * @doubly: head of the linked list
+ * @head: head of the linked list
  * @line_no: line number
  * Return: no return
  */

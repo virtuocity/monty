@@ -7,7 +7,7 @@
  * Return: no return
  */
 
-void _rot1(stack_t **head, unsigned int line_no)
+void _rotl(stack_t **head, unsigned int line_no)
 {
 	stack_t *p = NULL;
 	stack_t *q = NULL;

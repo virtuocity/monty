@@ -99,4 +99,5 @@ void _div(stack_t **head, unsigned int line_no);
 void _mul(stack_t **head, unsigned int line_no);
 void _mod(stack_t **head, unsigned int line_no);
 void _pchar(stack_t **head, unsigned int line_no);
+void _pstr(stack_t **head, unsigned int line_no);
 #endif /* MONTY_H */

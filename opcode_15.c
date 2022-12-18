@@ -9,7 +9,7 @@
 
 void _rotr(stack_t **head, unsigned int line_no)
 {
-	stack_t *p == NULL;
+	stack_t *p = NULL;
 	(void)line_no;
 
 	if (*head == NULL)

@@ -102,4 +102,9 @@ void _pchar(stack_t **head, unsigned int line_no);
 void _pstr(stack_t **head, unsigned int line_no);
 void _rotl(stack_t **head, unsigned int line_no);
 void _rotr(stack_t **head, unsigned int line_no);
+
+/* malloc functions */
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void *_calloc(unsigned int nmemb, unsigned int size);
+
 #endif /* MONTY_H */

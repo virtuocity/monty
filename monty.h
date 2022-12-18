@@ -101,4 +101,5 @@ void _mod(stack_t **head, unsigned int line_no);
 void _pchar(stack_t **head, unsigned int line_no);
 void _pstr(stack_t **head, unsigned int line_no);
 void _rotl(stack_t **head, unsigned int line_no);
+void _rotr(stack_t **head, unsigned int line_no);
 #endif /* MONTY_H */

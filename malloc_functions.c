@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void _calloc(unsigned int e_num, unsigned int size)
+void *_calloc(unsigned int e_num, unsigned int size)
 {
 	void *p = NULL;
 	unsigned int i;

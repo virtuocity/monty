@@ -17,7 +17,7 @@ void _rotr(stack_t **head, unsigned int line_no)
 	if ((*head)->next == NULL)
 		return;
 	p = *head;
-	while (p != NULL)
+	while (p->next != NULL)
 		p = p->next;
 	p->prev->next = NULL;
 	p->next = *head;
